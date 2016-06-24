@@ -1,0 +1,34 @@
+{
+  "name": "deploytool-ssh",
+  "version": "0.0.1",
+  "description": "An SSH extension for Deploytool",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmcclure/deploytool-ssh"
+  },
+  "author": {
+    "name": "Ben McClure",
+    "email": "ben.mcclure@gmail.com",
+    "url": "http://benmcclure.com"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "deploytool": "^0.1.0",
+    "sequest": "^0.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
